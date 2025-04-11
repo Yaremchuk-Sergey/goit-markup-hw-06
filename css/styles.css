@@ -124,7 +124,7 @@ a {
   fill: 2F2F37;
 }
 
-@media screen and (min-width: 768px) {
+ {
   .burger-btn {
     display: none;
   }
@@ -374,5 +374,102 @@ a {
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
+  }
+}
+
+/* 1 секція */
+
+.container-heading-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-main {
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 72px 52px;
+  max-width: 1440px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/Dark-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-resolution: 2x) {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/Dark-bg-mob-2x.jpg);
+}
+
+.page-main .heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 216px;
+  margin-bottom: 72px;
+}
+
+.page-main .button {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-main .button:hover,
+.page-main .button:focus {
+  background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .page-main .heading {
+    max-width: 496px;
+    margin-bottom: 36px;
+    font-size: 56px;
+    line-height: 1.07143;
+  }
+  .page-main {
+    padding: 112px auto;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tab.jpg);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .page-main .heading {
+    margin-bottom: 48px;
+  }
+  .page-main {
+    padding: 188px auto;
+    max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
   }
 }
