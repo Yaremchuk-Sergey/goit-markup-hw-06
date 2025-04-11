@@ -224,7 +224,12 @@
       <section class="page-main hiden">
         <div class="container container-heading-button">
           <h1 class="heading">Effective Solutions for Your Business</h1>
-          <button class="button">Order Service</button>
+          <button
+            class="button"
+            data-modal-open
+          >
+            Order Service
+          </button>
         </div>
       </section>
       <section class="page-main-two hiden">
@@ -811,12 +816,15 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open hiden">
+    <div
+      class="backdrop is-open hiden"
+      data-modal
+    >
       <div class="modal">
         <button
           class="btn-modal"
           type="button"
-          data-menu-close
+          data-modal-close
         >
           <svg
             class="modal-icon"
