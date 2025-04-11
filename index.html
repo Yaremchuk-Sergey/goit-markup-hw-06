@@ -84,16 +84,150 @@
             </li>
           </ul>
         </address>
+        <button
+          class="burger-btn"
+          type="button"
+          data-menu-open
+        >
+          <svg
+            class="burger-icon"
+            width="24"
+            height="24"
+          >
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div
+        class="mobile-menu is-open"
+        data-menu
+      >
+        <div class="container mobile-menu-container">
+          <button
+            class="mobile-menu-close"
+            type="button"
+            data-menu-close
+          >
+            <svg
+              class="modal-icon"
+              width="8"
+              height="8"
+            >
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="site-nav-mobile">
+              <li>
+                <a
+                  href="./index.html"
+                  class="link-nav"
+                  >Studio</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="link-nav"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="link-nav"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <address class="adress-mobile">
+            <ul class="site-nav-mobile">
+              <li class="">
+                <a
+                  href="tel:+110001111111"
+                  class="contacts-nav"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="contacts-nav"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="svg-link-mobile">
+            <li class="svg-link-soc">
+              <a
+                href=""
+                class="soclink-svg-footer"
+              >
+                <svg
+                  class="fill-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="svg-link-soc">
+              <a
+                href=""
+                class="soclink-svg-footer"
+              >
+                <svg
+                  class="fill-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="svg-link-soc">
+              <a
+                href=""
+                class="soclink-svg-footer"
+              >
+                <svg
+                  class="fill-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="svg-link-soc">
+              <a
+                href=""
+                class="soclink-svg-footer"
+              >
+                <svg
+                  class="fill-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
-      <section class="page-main">
+      <section class="page-main hiden">
         <div class="container container-heading-button">
           <h1 class="heading">Effective Solutions for Your Business</h1>
           <button class="button">Order Service</button>
         </div>
       </section>
-      <section class="page-main-two">
+      <section class="page-main-two hiden">
         <div class="container">
           <h2 class="visually-hidden">Benefits</h2>
           <ul class="site-flex">
@@ -164,7 +298,7 @@
           </ul>
         </div>
       </section>
-      <section class="page-two">
+      <section class="page-two hiden">
         <div class="container container-heading-portfolio">
           <h2 class="heading-two">Our Team</h2>
           <ul class="site-flex">
@@ -451,7 +585,7 @@
           </ul>
         </div>
       </section>
-      <section class="page-four">
+      <section class="page-four hiden">
         <div class="container">
           <h2 class="heading-two">Our Portfolio</h2>
           <ul class="page-four-flex">
@@ -573,7 +707,7 @@
         </div>
       </section>
     </main>
-    <footer class="finish">
+    <footer class="finish hiden">
       <div class="container footer-div-one">
         <div class="footer-div-one-two">
           <a
@@ -677,11 +811,12 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open hiden">
       <div class="modal">
         <button
           class="btn-modal"
           type="button"
+          data-menu-close
         >
           <svg
             class="modal-icon"
@@ -807,5 +942,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
