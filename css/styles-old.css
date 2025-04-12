@@ -102,48 +102,39 @@
 
 /* 3 секція */
 
-.text-three {
+/* .text-three {
   padding: 32px 0;
   align-items: center;
-}
+} */
 
 .container-heading-portfolio {
   flex-direction: column;
 }
 
-.site-flex {
+/* .site-flex {
   display: flex;
   gap: 24px;
-}
+} */
 
-.page-two {
+/* .page-two {
   background-color: #f4f4fd;
   margin: 0 auto;
   padding: 120px 0;
-}
+} */
 
-.page-two .heading-two {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.page-two .img {
+/* .page-two .img {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   /* width: 264px; */
   /* height: 380px; */
-}
+} */
 
-.img {
+/* .img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+} */
 
-.heading-two {
+/* .heading-two {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -151,17 +142,17 @@
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-}
+} */
 
-.text-list-two {
+/* .text-list-two {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
   margin-bottom: 8px;
-}
-.heading-three {
+} */
+/* .heading-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -169,8 +160,8 @@
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
-}
-.soclink-svg-link {
+} */
+/* .soclink-svg-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,23 +171,23 @@
   background-color: #4d5ae5;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.soclink-svg-link:hover,
+} */
+/* .soclink-svg-link:hover,
 .soclink-svg-link:focus {
   background-color: #404bbf;
-}
+} */
 
-.svg-link {
+/* .svg-link {
   display: flex;
   gap: 24px;
   list-style: none;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.fill-icon {
+/* .fill-icon {
   fill: #f4f4fd;
-}
+} */
 
 /* 4 секція */
 
