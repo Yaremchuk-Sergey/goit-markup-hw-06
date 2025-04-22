@@ -320,6 +320,14 @@ a {
   color: #2e2f42;
 }
 
+.link-nav-one {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+
 .link-nav:hover,
 .link-nav:focus {
   color: #404bbf;
@@ -333,15 +341,17 @@ a {
   color: #434455;
 }
 
-.contacts-nav:hover,
-.contacts-nav:focus {
+.contacts-nav-tel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #4d5ae5;
 }
 
-.site-nav-mobile {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
+.contacts-nav:hover,
+.contacts-nav:focus {
+  color: #4d5ae5;
 }
 
 .fill-icon {
@@ -511,7 +521,6 @@ a {
 .page-main-two {
   margin: 0 auto;
   padding: 96px 0;
-  max-width: 320px;
 }
 
 .heading {
@@ -537,10 +546,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .page-main-two {
-    max-width: 768px;
-  }
-
   .site-flex {
     flex-direction: row;
     column-gap: 24px;
@@ -573,7 +578,6 @@ a {
   }
   .page-main-two {
     padding: 120px 0;
-    max-width: 1440px;
   }
   .li-calc {
     width: calc((100% - 72px) / 4);
@@ -592,7 +596,6 @@ a {
   background-color: #f4f4fd;
   margin: 0 auto;
   padding: 96px 0;
-  max-width: 320px;
 }
 
 .site-flex {
@@ -671,20 +674,12 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .page-two {
-    max-width: 768px;
-  }
-
   .img {
     width: calc((100% - 24px) / 2);
   }
 }
 
 @media screen and (min-width: 1158px) {
-  .page-two {
-    max-width: 1440px;
-  }
-
   .soclink-svg-link {
     display: flex;
     justify-content: center;
@@ -712,7 +707,6 @@ a {
   background-color: #fff;
   margin: 0 auto;
   padding: 96px 0;
-  max-width: 320px;
 }
 
 .text-four {
@@ -763,9 +757,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .page-four {
-    max-width: 768px;
-  }
   .page-four-flex {
     column-gap: 24px;
     row-gap: 72px;
@@ -778,9 +769,6 @@ a {
 }
 
 @media screen and (min-width: 1158px) {
-  .page-four {
-    max-width: 1440px;
-  }
   .img-text {
     width: 360px;
   }
@@ -795,7 +783,6 @@ a {
   background-color: #2e2f42;
   margin: 0 auto;
   padding: 96px 0;
-  max-width: 320px;
 }
 
 .text-list-three {
@@ -918,9 +905,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .finish {
-    max-width: 768px;
-  }
   .text-list-three {
     width: 264px;
     margin-bottom: 96px;
@@ -970,10 +954,6 @@ a {
 }
 
 @media screen and (min-width: 1158px) {
-  .finish {
-    max-width: 1158px;
-  }
-
   .div-subscribe {
     margin-left: 80px;
   }
@@ -1226,7 +1206,6 @@ class-input:hover-within + .class-icon {
 
 a {
   line-height: 1.33333;
-  text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
